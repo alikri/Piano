@@ -1,0 +1,21 @@
+* {
+    background: darkgray;
+}
+kbd {
+    background: white;
+    display: inline-block;
+    width: 80px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-width: thick;
+    text-align: center;
+    padding: 120px 7px;
+    font-size: larger;
+}
+.container {
+    margin: 20% auto;
+    width: max-content;
+    height: max-content;
+
+
+}
