@@ -1,21 +1,61 @@
 * {
-    background: darkgray;
+    background: #242f24;
 }
-kbd {
+.white-keys kbd {
     background: white;
     display: inline-block;
     width: 80px;
     border-style: solid;
-    border-color: cornflowerblue;
+    border-color: black;
     border-width: thick;
     text-align: center;
     padding: 120px 7px;
     font-size: larger;
+
 }
+
+.black-keys {
+    position: relative;
+}
+
+.black-keys kbd {
+    background: black;
+    display: inline-block;
+    width: 60px;
+    border-color: cornflowerblue;
+    text-align: center;
+    padding: 50px 1px;
+    font-size: larger;
+    position: relative;
+    color: white;
+
+}
+#w {
+    bottom: 263px;
+    left: 74px;
+}
+
+#e {
+    bottom: 263px;
+    left: 115px;
+}
+
+#t {
+    bottom: 263px;
+    left: 261px;
+}
+
+#y {
+    bottom: 263px;
+    left: 304px;
+}
+#u {
+    bottom: 263px;
+    left: 346px;
+}
+
 .container {
     margin: 20% auto;
     width: max-content;
     height: max-content;
-
-
 }
